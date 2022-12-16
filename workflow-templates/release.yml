@@ -1,8 +1,8 @@
 name: Release
 on:
   # comment this if you want to release by manual trigger action
-  push:
-    branches: [ master, main, next, beta, '*.x' ]
+  #push:
+  #  branches: [ master, main, next, beta, '*.x' ]
 
   # manual trigger action at GitHub Actions Tab
   workflow_dispatch: {}
